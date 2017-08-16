@@ -1,17 +1,21 @@
 [Adblock Plus 2.0]
-! Version: 201708100857
+! Version: 201708161707
 ! Title: Raajje-AdList
-! Last modified: 10 Aug 2017 08:57 GMT+5
-! Expires: 2 days (update frequency)
+! Last modified: 16 Aug 2017 17:07 GMT+5
+! Expires: 6 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! Licence: https://creativecommons.org/licenses/by-nc/4.0/
 ! Download: https://raw.githubusercontent.com/evenxzero/Raajje-AdList/master/filter
+
+!vaguthu.mv
 vaguthu.mv##.g
 
+!sun.mv
 sun.mv##.ad-expandable-banner
 sun.mv##.article-detail-ad
 sun.mv##.ad-floating-content-banner
 
+!avasdhivehi
 avas.mv##.avas-ad-slot.wide.ad
 avas.mv##.business.cat-list > .avas-ad-slot.mrb.ad.blocks
 avas.mv##.avas-ad-slot.ad.home-long-banner
@@ -20,6 +24,14 @@ avas.mv##.avas-ad-slot.micro.ad
 avas.mv##.avas-ad-slot.articleinside.ad
 avas.mv##.avas-ad-slot.detail-bottom.ad
 
+!avasdhivehi
+avas.mv/en/##.avas-ad-slot.wide.ad
+avas.mv/en/##.avas-ad-slot.micro.ad:nth-of-type(2)
+avas.mv/en/##.avas-ad-slot.micro.ad:nth-of-type(3)
+avas.mv/en/##.avas-ad-slot.detail-bottom.ad
+avas.mv/en/##.avas-ad-slot.articleinside.ad
+
+#dhuvas.mv
 dhuvas.mv##.td-a-rec-id-content_top.td-a-rec
 dhuvas.mv##.td-a-rec-id-content_inline.td-a-rec
 dhuvas.mv##.vc_single_image-img
