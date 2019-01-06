@@ -1,37 +1,235 @@
 [Adblock Plus 2.0]
-! Version: 201708161707
+! Version: 201901061707
 ! Title: Raajje-AdList
-! Last modified: 16 Aug 2017 17:07 GMT+5
-! Expires: 6 days (update frequency)
+! Last modified: 06 Jan 2019 17:07 GMT+5
+! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! Licence: https://creativecommons.org/licenses/by-nc/4.0/
 ! Download: https://raw.githubusercontent.com/evenxzero/Raajje-AdList/master/filter
 
-!vaguthu.mv
-vaguthu.mv##.g
+!vaguthu.mv/
+vaguthu.mv##body > div.v-advert:nth-of-type(1)
+vaguthu.mv##.promo-content > div:nth-of-type(2)
+vaguthu.mv##div.columns.medium-6:nth-of-type(2)
+vaguthu.mv##div.v-advert:nth-of-type(3)
+vaguthu.mv##.highlights > .v-advert
+vaguthu.mv##.article-entry > .v-advert
+vaguthu.mv##.columns.medium-8.article-content > .v-advert
 
-!sun.mv
-sun.mv##.ad-expandable-banner
-sun.mv##.article-detail-ad
-sun.mv##.ad-floating-content-banner
+!sun.mv/
+sun.mv##.section-header-sponsor
+sun.mv##.block-home-featured-sponsors
+sun.mv##.block-middle-sponsor.custom-gutter.row
+sun.mv##div.section-home-row-sponsor:nth-of-type(6) > .container
+sun.mv##div.section-home-row-sponsor:nth-of-type(8) > .container
+sun.mv##.--center.--float-label.component-sponsor
+sun.mv##.clearfix.component-article-content > .--center.component-sponsor
+sun.mv##.col-md-8.col-xl-9 > .component-sponsor
+sun.mv##.component-sponser
+sun.mv##div.section-home-row-sponsor:nth-of-type(7) > .container
+sun.mv##div.section-home-row-sponsor:nth-of-type(9) > .container
+en.sun.mv##.sponser-top-banner.sponser
+en.sun.mv##.sponser-featured-top-square.sponser
+en.sun.mv##.sponser-home-category.sponser
+en.sun.mv##.sponser-home-section-1 > .container > .sm-gutter.row > .col-xs-12 > .sponser
+en.sun.mv##.sponser-home-section-2-square.sponser
+en.sun.mv##.sponser-home-section-2 > .container > .sm-gutter.row > .col-xs-12 > .sponser
+en.sun.mv##.sponser-article-reader-content-below.sponser
+en.sun.mv##.sponser-reader-side-square.sponser
 
-!avasdhivehi
-avas.mv##.avas-ad-slot.wide.ad
-avas.mv##.business.cat-list > .avas-ad-slot.mrb.ad.blocks
-avas.mv##.avas-ad-slot.ad.home-long-banner
-avas.mv##.report.cat-list > .avas-ad-slot.mrb.ad.blocks
-avas.mv##.avas-ad-slot.micro.ad
-avas.mv##.avas-ad-slot.articleinside.ad
-avas.mv##.avas-ad-slot.detail-bottom.ad
+!vnewsmv/
+vnews.mv##.adborder
+vnews.mv##.pull-right.span12 > .hidemobile
 
-!avasdhivehi
-avas.mv/en/##.avas-ad-slot.wide.ad
-avas.mv/en/##.avas-ad-slot.micro.ad:nth-of-type(2)
-avas.mv/en/##.avas-ad-slot.micro.ad:nth-of-type(3)
-avas.mv/en/##.avas-ad-slot.detail-bottom.ad
-avas.mv/en/##.avas-ad-slot.articleinside.ad
+!cnm.mv/
+cnm.mv##.w-100.lazy.my-4
+cnm.mv##.py-3.my-3
+cnm.mv##.bg-light.py-3.my-4.mx-auto.col-md-12.col-10
 
-#dhuvas.mv
-dhuvas.mv##.td-a-rec-id-content_top.td-a-rec
-dhuvas.mv##.td-a-rec-id-content_inline.td-a-rec
-dhuvas.mv##.vc_single_image-img
+!avas.mv/
+avas.mv###app > .bg-white
+avas.mv##.md\:w-auto.w-full.p-3.justify-center.items-center.md\:flex-row.flex-col.flex
+
+!dhuvas.mv/
+dhuvas.mv##.td-header-header.td-header-row.td-container-header
+dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(11) > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .vc_align_left.wpb_content_element.wpb_single_image
+dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(16) > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .vc_align_left.wpb_content_element.wpb_single_image > .vc_figure.wpb_wrapper > .vc_box_border_grey.vc_single_image-wrapper
+dhuvas.mv##.td-pb-span8.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .vc_align_left.wpb_content_element.wpb_single_image > .vc_figure.wpb_wrapper
+dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(21) > .td-pb-span12.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .td-pb-row.vc_inner.wpb_row.vc_row > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner
+dhuvas.mv##.td_block_template_1.td_uid_5_5c3192649d2b4_rand.td-a-rec-id-sidebar.td-a-rec
+dhuvas.mv##.td_block_template_1.td_uid_3_5c31926498061_rand.td-a-rec-id-content_top.td-a-rec
+dhuvas.mv##.td_block_template_1.td_uid_2_5c31926492c3a_rand.td-a-rec-id-content_inline.td-a-rec
+dhuvas.mv##.td_block_template_1.td_uid_4_5c31926499777_rand.td-a-rec-id-content_bottom.td-a-rec
+dhuvas.mv##.td-ss-main-sidebar
+dhuvas.mv##.td_block_template_1.td_uid_3_5c31a88a66b54_rand.td-a-rec-id-content_top.td-a-rec
+dhuvas.mv##.td_block_template_1.td_uid_2_5c31a88a60881_rand.td-a-rec-id-content_inline.td-a-rec
+dhuvas.mv##.td_block_template_1.td_uid_4_5c31a88a6856c_rand.td-a-rec-id-content_bottom.td-a-rec > .td-all-devices
+
+!raajje.mv/
+raajje.mv##.readMoreFade > .img-responsive.img
+raajje.mv##.content-adv > p
+raajje.mv##.content-adv
+raajje.mv##div.container:nth-of-type(3) > div.row:nth-of-type(2)
+raajje.mv##div.container:nth-of-type(3) > div.row:nth-of-type(1)
+raajje.mv##.mobile_hide.col-md-4 > .img-responsive.img
+raajje.mv##div.col-md-12:nth-of-type(4)
+raajje.mv###fadeMe > .img-responsive.img
+raajje.mv##div.row:nth-of-type(4)
+
+!thoora.mv/
+thoora.mv##.wide.ad
+
+!kulhudhuffushi.com/
+kulhudhuffushi.com##.side-advertisement
+
+!haftha.mv/
+haftha.mv###media_image-7
+haftha.mv###media_image-9
+
+!milandhoonews.com/
+milandhoonews.com###media_image-5
+milandhoonews.com##[src="/wp-content/uploads/2018/11/tinuad.gif"]
+milandhoonews.com###main > p
+milandhoonews.com##hr:nth-of-type(1)
+
+!addulive.com/
+www.addulive.com##.d-lg-block.d-none.col-md-3
+www.addulive.com##.text-center.slot-3-addulive
+www.addulive.com##.text-center.slot-5-addulive
+www.addulive.com##.sticky-top
+www.addulive.com##.text-center.slot-7-addulive
+www.addulive.com##.text-center.slot-8-addulive
+www.addulive.com##.text-center.mt-5.slot-10-addulive
+www.addulive.com##.text-center.slot-14-addulive
+www.addulive.com##.text-center.slot-12-addulive
+www.addulive.com##.text-center.slot-13-addulive
+www.addulive.com##.mb-4.m3-4.text-center.slot-6-addulive
+
+!miadhu.mv/
+miadhu.mv###topAdCaro
+miadhu.mv##.mt-3.col-md-12
+miadhu.mv##.mbo-ads-show.col-md-6
+miadhu.mv##.mbo-ads.col-md-6
+miadhu.mv##.mbo-ads.col-md-4
+miadhu.mv##.mbo-ads.gallery
+miadhu.mv##div.col-md-12:nth-of-type(3)
+miadhu.mv##div.row:nth-of-type(6)
+
+!aafathis.mv/
+aafathis.mv###text-26
+aafathis.mv###text-45
+aafathis.mv###text-49
+aafathis.mv##.header-ad
+
+!naares.com/
+www.naares.com##.stream-item-top-wrapper.stream-item.tie-col-md-8
+www.naares.com###stream-item-widget-3
+www.naares.com###stream-item-widget-5
+www.naares.com##.aligncenter.stream-item-inline-post.stream-item-in-post.stream-item
+
+!thepress.mv/
+thepress.mv##.pb-2.pl-0.text-center.banner.advert
+thepress.mv##.md\:w-2\/5.w-full.md\:block.hidden
+
+!oneonline.mv/
+oneonline.mv##.mb-6.rtl.md\:flex-row.flex-col.flex > div.md\:w-1\/2.w-full
+oneonline.mv##.text-center.py-8.w-full.ads
+
+!fuvahmulahtimes.com/
+fuvahmulahtimes.com##.space.single__latest-space
+
+!mikalnews.com/
+mikalnews.com##.adv-300x600
+
+!halinews.com/
+halinews.com##.td-header-sp-recs
+halinews.com##.vc_column-gap-2.td-pb-row.vc_inner.wpb_row.vc_row > div.td-pb-span6.vc_column_container.wpb_column:nth-of-type(2)
+halinews.com##div.td-pb-row.wpb_row.vc_row:nth-of-type(8) > div.td-pb-span4.vc_column_container.wpb_column:nth-of-type(1) > .vc_column-inner
+halinews.com##div.td-pb-row.wpb_row.vc_row:nth-of-type(10)
+halinews.com##div.td-pb-row.wpb_row.vc_row:nth-of-type(12)
+halinews.com##.td_block_template_1.td_uid_34_5c3174280e72f_rand.td-a-rec-id-content_inline.td-a-rec
+halinews.com###halin-1478225461
+halinews.com##.halin-adlabel
+
+!eydhafushitimes.com/live/
+www.eydhafushitimes.com##.sidebar
+www.eydhafushitimes.com##.vc_hidden-xs.vc_hidden-sm.alignlefti.main-sidebar.sidebar.vc_sidebar.momizat_vc_col.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .wpb_content_element.wpb_widgetised_column > .wpb_wrapper > .widget_text.widget
+www.eydhafushitimes.com##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(3) > .alignlefti.main-sidebar.sidebar.vc_sidebar.momizat_vc_col.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper
+
+
+!liyuntherin.org/
+liyuntherin.org##div.mini-widgets:nth-of-type(4)
+liyuntherin.org##div.wpb_content_element.wpb_text_column:nth-of-type(2)
+liyuntherin.org##div.wpb_content_element.wpb_text_column:nth-of-type(6)
+
+!fenvaru.com/
+www.fenvaru.com##.row.layout > .ad
+www.fenvaru.com##section.common.story.cat:nth-of-type(3) > .ad
+www.fenvaru.com##section.common.story.cat:nth-of-type(10) > .ad
+www.fenvaru.com##.block.ad
+
+!ungoofaaru.com/
+www.ungoofaaru.com##.stream-item-widget-content > [href="#"]
+www.ungoofaaru.com###tie-block_2223
+
+!dhiislam.com/
+dhiislam.com##.single-leader > .container
+dhiislam.com##.vc_col-sm-4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .wpb_content_element.wpb_text_column
+dhiislam.com###text-62
+
+!ihavandhoo.com/
+ihavandhoo.com###view-article > div:nth-of-type(2)
+ihavandhoo.com###adv-article
+
+!vaanuvaa.mv/
+vaanuvaa.mv##.col-md-6 > section.row:nth-of-type(2)
+vaanuvaa.mv##section.row:nth-of-type(5)
+vaanuvaa.mv##section:nth-of-type(15)
+
+!hithaadhoo.com/
+www.hithaadhoo.com##.col-sm-7.col-md-pull-3.col-md-9
+www.hithaadhoo.com##.col-md-pull-9.col-md-3
+
+!meemu.mv/
+www.meemu.mv##.td-a-rec-id-sidebar.td-a-rec
+www.meemu.mv##.td-a-rec-id-content_bottom.td-a-rec
+
+!dhivehi.mv/
+dhivehi.mv###lBar > div > div:nth-of-type(1)
+
+!bahuru.net/
+bahuru.net##[href^="https://www.facebook.com/kitchengaloreshop4u"]
+
+!inews.mv/
+inews.mv##.td-header-sp-recs
+
+!kulhudhuffushilive.com/
+kulhudhuffushilive.com##.td-header-rec-wrap
+
+!voiceofmeedhoo.info/
+www.voiceofmeedhoo.info##.df-ads.col-md-8
+www.voiceofmeedhoo.info###df_widget_advertisement_300-3
+www.voiceofmeedhoo.info##.vc_row-has-fill.vc_custom_1468306030087.df-vc-container.vc_row-fluid.wpb_row.vc_row > .df_col-sm-4.vc_col-sm-4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .wpb_content_element.wpb_widgetised_column > .wpb_wrapper
+www.voiceofmeedhoo.info###df_widget_advertisement_300-5 > .df-widget-ads > .df-widget-ads-inner
+www.voiceofmeedhoo.info###df_widget_advertisement_300-5 > .df-widget-ads > .df-widget-title
+www.voiceofmeedhoo.info##.size-full.wp-image-5523.alignnone.img-responsive
+www.voiceofmeedhoo.info##.df-widget-ads-inner
+www.voiceofmeedhoo.info##.df-widget-ads > .df-widget-title
+www.voiceofmeedhoo.info##div.col-md-12:nth-of-type(4)
+
+!eydhafushivoice.com/
+eydhafushivoice.com###text-22 > .textwidget
+eydhafushivoice.com###text-19
+eydhafushivoice.com###text-3
+eydhafushivoice.com###text-6
+eydhafushivoice.com###text-8
+eydhafushivoice.com###text-23
+eydhafushivoice.com###text-17
+eydhafushivoice.com###text-16
+
+!esfiya.com/
+www.esfiya.com##.s1.sidebar
+www.esfiya.com##.megabanner
+www.esfiya.com##.home4th
+www.esfiya.com##.singlepostbelowcontent
+www.esfiya.com##.topadundermenu
