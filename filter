@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 201901061707
+! Version: 201901101707
 ! Title: Raajje-AdList
-! Last modified: 06 Jan 2019 17:07 GMT+5
+! Last modified: 10 Jan 2019 17:07 GMT+5
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! Licence: https://creativecommons.org/licenses/by-nc/4.0/
@@ -51,19 +51,15 @@ avas.mv###app > .bg-white
 avas.mv##.md\:w-auto.w-full.p-3.justify-center.items-center.md\:flex-row.flex-col.flex
 
 !dhuvas.mv/
-dhuvas.mv##.td-header-header.td-header-row.td-container-header
+dhuvas.mv##.td-container-wrap.td-banner-wrap-full
 dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(11) > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .vc_align_left.wpb_content_element.wpb_single_image
-dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(16) > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .vc_align_left.wpb_content_element.wpb_single_image > .vc_figure.wpb_wrapper > .vc_box_border_grey.vc_single_image-wrapper
-dhuvas.mv##.td-pb-span8.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .vc_align_left.wpb_content_element.wpb_single_image > .vc_figure.wpb_wrapper
-dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(21) > .td-pb-span12.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .td-pb-row.vc_inner.wpb_row.vc_row > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner
-dhuvas.mv##.td_block_template_1.td_uid_5_5c3192649d2b4_rand.td-a-rec-id-sidebar.td-a-rec
-dhuvas.mv##.td_block_template_1.td_uid_3_5c31926498061_rand.td-a-rec-id-content_top.td-a-rec
-dhuvas.mv##.td_block_template_1.td_uid_2_5c31926492c3a_rand.td-a-rec-id-content_inline.td-a-rec
-dhuvas.mv##.td_block_template_1.td_uid_4_5c31926499777_rand.td-a-rec-id-content_bottom.td-a-rec
-dhuvas.mv##.td-ss-main-sidebar
-dhuvas.mv##.td_block_template_1.td_uid_3_5c31a88a66b54_rand.td-a-rec-id-content_top.td-a-rec
-dhuvas.mv##.td_block_template_1.td_uid_2_5c31a88a60881_rand.td-a-rec-id-content_inline.td-a-rec
-dhuvas.mv##.td_block_template_1.td_uid_4_5c31a88a6856c_rand.td-a-rec-id-content_bottom.td-a-rec > .td-all-devices
+dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(14) > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner
+dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(15) > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper
+dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(16) > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner
+dhuvas.mv##.td-pb-span8.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .vc_align_left.wpb_content_element.wpb_single_image
+dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(21) > .td-pb-span12.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .td-pb-row.vc_inner.wpb_row.vc_row > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper
+dhuvas.mv##.g-5.g
+dhuvas.mv##.g-3.g
 
 !raajje.mv/
 raajje.mv##.readMoreFade > .img-responsive.img
