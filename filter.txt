@@ -1,11 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 201901101707
-! Title: Raajje-AdList
-! Last modified: 10 Jan 2019 17:07 GMT+5
-! Expires: 7 days (update frequency)
+! Version: 201901141042
+! Title: Fanboy's Annoyance List
+! Last modified: 14 Jan 2019 10:42 UTC
+! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
-! Licence: https://creativecommons.org/licenses/by-nc/4.0/
+! License: https://creativecommons.org/licenses/by-nc/4.0/
 ! Download: https://raw.githubusercontent.com/evenxzero/Raajje-AdList/master/filter
+!
 
 !vaguthu.mv/
 vaguthu.mv##body > div.v-advert:nth-of-type(1)
