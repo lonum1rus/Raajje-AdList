@@ -5,7 +5,7 @@
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! License: https://creativecommons.org/licenses/by-nc/4.0/
-! Download: https://raw.githubusercontent.com/evenxzero/Raajje-AdList/master/filter
+! Download: https://raw.githubusercontent.com/evenxzero/Raajje-AdList/master/filter.txt
 !
 
 !vaguthu.mv/
