@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Version: 201901141042
-! Title: Fanboy's Annoyance List
+! Title: Raajje Adlist
 ! Last modified: 14 Jan 2019 10:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
