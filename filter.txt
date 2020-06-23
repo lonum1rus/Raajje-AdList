@@ -1,12 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 201901141042
+! Version: 202006232005
 ! Title: Raajje Adlist
-! Last modified: 14 Jan 2019 10:42 UTC
+! Last modified: 23 June 2020 20:05 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! License: https://creativecommons.org/licenses/by-nc/4.0/
 ! Download: https://raw.githubusercontent.com/evenxzero/Raajje-AdList/master/filter.txt
-!
 
 !vaguthu.mv/
 vaguthu.mv##body > div.v-advert:nth-of-type(1)
@@ -16,6 +15,7 @@ vaguthu.mv##div.v-advert:nth-of-type(3)
 vaguthu.mv##.highlights > .v-advert
 vaguthu.mv##.article-entry > .v-advert
 vaguthu.mv##.columns.medium-8.article-content > .v-advert
+||ads.vaguthu.mv^
 
 !sun.mv/
 sun.mv##.section-header-sponsor
@@ -37,10 +37,12 @@ en.sun.mv##.sponser-home-section-2-square.sponser
 en.sun.mv##.sponser-home-section-2 > .container > .sm-gutter.row > .col-xs-12 > .sponser
 en.sun.mv##.sponser-article-reader-content-below.sponser
 en.sun.mv##.sponser-reader-side-square.sponser
+||cache-server01.sun.mv/sun.assets/isthihaaru^$image
 
 !vnewsmv/
 vnews.mv##.adborder
 vnews.mv##.pull-right.span12 > .hidemobile
+vnews.mv##.topheader-ad
 
 !cnm.mv/
 cnm.mv##.w-100.lazy.my-4
@@ -50,6 +52,9 @@ cnm.mv##.bg-light.py-3.my-4.mx-auto.col-md-12.col-10
 !avas.mv/
 avas.mv###app > .bg-white
 avas.mv##.md\:w-auto.w-full.p-3.justify-center.items-center.md\:flex-row.flex-col.flex
+avas.mv##.home_top_ad
+avas.mv##.home_middle_ad
+||images-01.avas.mv/creatives^$image
 
 !dhuvas.mv/
 dhuvas.mv##.td-container-wrap.td-banner-wrap-full
@@ -61,6 +66,8 @@ dhuvas.mv##.td-pb-span8.vc_column_container.wpb_column > .vc_column-inner > .wpb
 dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(21) > .td-pb-span12.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .td-pb-row.vc_inner.wpb_row.vc_row > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper
 dhuvas.mv##.g-5.g
 dhuvas.mv##.g-3.g
+||i*.wp.com/dhuvas.mv/wp-content/uploads/*1140x200.jpg^$image
+||i*.wp.com/dhuvas.mv/wp-content/uploads/*_360x500.jpg^$image
 
 !raajje.mv/
 raajje.mv##.readMoreFade > .img-responsive.img
@@ -71,7 +78,7 @@ raajje.mv##div.container:nth-of-type(3) > div.row:nth-of-type(1)
 raajje.mv##.mobile_hide.col-md-4 > .img-responsive.img
 raajje.mv##div.col-md-12:nth-of-type(4)
 raajje.mv###fadeMe > .img-responsive.img
-raajje.mv##div.row:nth-of-type(4)
+||cloudfront.net/static-files/ads^$image,domain=raajje.mv
 
 !thoora.mv/
 thoora.mv##.wide.ad
@@ -82,6 +89,11 @@ kulhudhuffushi.com##.side-advertisement
 !haftha.mv/
 haftha.mv###media_image-7
 haftha.mv###media_image-9
+haftha.mv##.height420[style*=background]
+haftha.mv##.width100[style=" height:170px;"]
+||haftha.mv/wp-content/uploads/*-1200x150-*.jpg$image
+||haftha.mv/wp-content/uploads/*-320x530-*.jpg^$image
+||haftha.mv/wp-content/uploads/*/MWSC-*.jpg^$image
 
 !milandhoonews.com/
 milandhoonews.com###media_image-5
@@ -111,6 +123,9 @@ miadhu.mv##.mbo-ads.col-md-4
 miadhu.mv##.mbo-ads.gallery
 miadhu.mv##div.col-md-12:nth-of-type(3)
 miadhu.mv##div.row:nth-of-type(6)
+||miadhu.mv/source/*/1200/250^$image
+||miadhu.mv/source/*/1200/150$image
+||miadhu.mv/source/*/450/900$image
 
 !aafathis.mv/
 aafathis.mv###text-26
@@ -123,10 +138,13 @@ www.naares.com##.stream-item-top-wrapper.stream-item.tie-col-md-8
 www.naares.com###stream-item-widget-3
 www.naares.com###stream-item-widget-5
 www.naares.com##.aligncenter.stream-item-inline-post.stream-item-in-post.stream-item
+||naares.com/wp-content/uploads/*/Naares.png^$image
+||naares.com/wp-content/uploads/*/naares1.$image
 
 !thepress.mv/
 thepress.mv##.pb-2.pl-0.text-center.banner.advert
 thepress.mv##.md\:w-2\/5.w-full.md\:block.hidden
+thepress.mv##.topheader-ad
 
 !oneonline.mv/
 oneonline.mv##.mb-6.rtl.md\:flex-row.flex-col.flex > div.md\:w-1\/2.w-full
@@ -134,9 +152,11 @@ oneonline.mv##.text-center.py-8.w-full.ads
 
 !fuvahmulahtimes.com/
 fuvahmulahtimes.com##.space.single__latest-space
+fuvahmulahtimes.com##.ads
 
 !mikalnews.com/
 mikalnews.com##.adv-300x600
+||mikalnews.com/wp-content/uploads/*.gif^$image
 
 !halinews.com/
 halinews.com##.td-header-sp-recs
@@ -147,12 +167,18 @@ halinews.com##div.td-pb-row.wpb_row.vc_row:nth-of-type(12)
 halinews.com##.td_block_template_1.td_uid_34_5c3174280e72f_rand.td-a-rec-id-content_inline.td-a-rec
 halinews.com###halin-1478225461
 halinews.com##.halin-adlabel
+||halinews.com/wp-content/uploads/*.gif^$image
+||i*.wp.com/halinews.com/wp-content/uploads/*.gif^$image
+||i*.wp.com/halinews.com/wp-content/uploads/*/Special-Price_Hali-News*.jpg^$image
 
 !eydhafushitimes.com/live/
 www.eydhafushitimes.com##.sidebar
 www.eydhafushitimes.com##.vc_hidden-xs.vc_hidden-sm.alignlefti.main-sidebar.sidebar.vc_sidebar.momizat_vc_col.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .wpb_content_element.wpb_widgetised_column > .wpb_wrapper > .widget_text.widget
 www.eydhafushitimes.com##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(3) > .alignlefti.main-sidebar.sidebar.vc_sidebar.momizat_vc_col.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper
-
+||eydhafushitimes.com/live/wp-content/uploads/*645x82-*.png^$image
+||eydhafushitimes.com/live/wp-content/uploads/*1162x110.jpg^$image
+||eydhafushitimes.com/live/wp-content/uploads/*_352x330.jpg^$image
+||eydhafushitimes.com/live/wp-content/uploads/*/Salsa.jpg$image
 
 !liyuntherin.org/
 liyuntherin.org##div.mini-widgets:nth-of-type(4)
@@ -173,6 +199,7 @@ www.ungoofaaru.com###tie-block_2223
 dhiislam.com##.single-leader > .container
 dhiislam.com##.vc_col-sm-4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .wpb_content_element.wpb_text_column
 dhiislam.com###text-62
+||thiladhun.com/wp-content/uploads/*-Ad.png^$image
 
 !ihavandhoo.com/
 ihavandhoo.com###view-article > div:nth-of-type(2)
@@ -186,6 +213,7 @@ vaanuvaa.mv##section:nth-of-type(15)
 !hithaadhoo.com/
 www.hithaadhoo.com##.col-sm-7.col-md-pull-3.col-md-9
 www.hithaadhoo.com##.col-md-pull-9.col-md-3
+||hithaadhoo.com/Add^$image
 
 !meemu.mv/
 www.meemu.mv##.td-a-rec-id-sidebar.td-a-rec
@@ -199,9 +227,6 @@ bahuru.net##[href^="https://www.facebook.com/kitchengaloreshop4u"]
 
 !inews.mv/
 inews.mv##.td-header-sp-recs
-
-!kulhudhuffushilive.com/
-kulhudhuffushilive.com##.td-header-rec-wrap
 
 !voiceofmeedhoo.info/
 www.voiceofmeedhoo.info##.df-ads.col-md-8
@@ -223,6 +248,10 @@ eydhafushivoice.com###text-8
 eydhafushivoice.com###text-23
 eydhafushivoice.com###text-17
 eydhafushivoice.com###text-16
+||eydhafushivoice.com/wp-content/uploads/*-512x1024.jpg^$image
+||eydhafushivoice.com/wp-content/uploads/*_ad_1.jpg^$image
+||eydhafushivoice.com/wp-content/uploads/*_o.$image
+||eydhafushivoice.com/wp-content/uploads/*_n.$image
 
 !esfiya.com/
 www.esfiya.com##.s1.sidebar
