@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202006241830
+! Version: 202006281920
 ! Title: Raajje Adlist
-! Last modified: 24 June 2020 18:30 UTC
+! Last modified: 28 June 2020 19:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! License: https://creativecommons.org/licenses/by-nc/4.0/
@@ -37,9 +37,25 @@ en.sun.mv##.sponser-home-section-2-square.sponser
 en.sun.mv##.sponser-home-section-2 > .container > .sm-gutter.row > .col-xs-12 > .sponser
 en.sun.mv##.sponser-article-reader-content-below.sponser
 en.sun.mv##.sponser-reader-side-square.sponser
+www.sun.com.mv##.sponser-home-section-1 > .container > .sm-gutter.row > .col-xs-12 > .sponser > .sponser-label
+www.sun.com.mv##.sponser-home-section-2-square.sponser > .sponser-label
+www.sun.com.mv##.sponser-home-section-2 > .container > .sm-gutter.row > .col-xs-12 > .sponser > .sponser-label
+www.sun.com.mv##.sponser-top-banner.sponser
+www.sun.com.mv##.sponser-home-section-1 > .container > .sm-gutter.row > .col-xs-12 > .sponser > .sponser-label
+www.sun.com.mv##.sponser-home-section-2-square.sponser > .sponser-label
+www.sun.com.mv##.sponser-home-section-2 > .container > .sm-gutter.row > .col-xs-12 > .sponser > .sponser-label
+www.sun.com.mv##.sponser-top-banner.sponser
+www.sun.com.mv##.input > .sponsor
+www.sun.com.mv##.sponser-home-section-1 > .container > .sm-gutter.row > .col-xs-12 > .sponser > .sponser-label
+www.sun.com.mv##.sponser-home-section-2-square.sponser > .sponser-label
+www.sun.com.mv##.sponser-home-section-2 > .container > .sm-gutter.row > .col-xs-12 > .sponser > .sponser-label
+www.sun.com.mv##.sponser-top-banner.sponser
+www.sun.com.mv##.input > .sponsor
+||www.sun.com.mv/public/images/core/ooredoo-search.png$image
 ||cache-server01.sun.mv/sun.assets/isthihaaru^$image
+||sun.mv/public/assets/ooredoo-search-v2.png$image
 
-!vnewsmv/
+!vnews.mv/
 vnews.mv##.adborder
 vnews.mv##.pull-right.span12 > .hidemobile
 vnews.mv##.topheader-ad
@@ -48,7 +64,19 @@ vnews.mv##.topheader-ad
 cnm.mv##.w-100.lazy.my-4
 cnm.mv##.py-3.my-3
 cnm.mv##.bg-light.py-3.my-4.mx-auto.col-md-12.col-10
+cnm.mv###cat_loc_2 > .home_cat_left > .home_top_section_box.row > div.col-md-6.col-6:nth-of-type(2) > .home_top_section_elem > .home_cat_left_box > div:nth-of-type(2)
+cnm.mv##div.col-md-12.col-12:nth-of-type(8) > div:nth-of-type(3)
+cnm.mv###cat_loc_4 > .home_cat_left > .home_top_section_box.row > div.col-md-6.col-6:nth-of-type(2) > .home_top_section_elem > .home_cat_left_box > div:nth-of-type(2)
+cnm.mv##div:nth-of-type(7) > div.v_space_20:nth-of-type(1)
+cnm.mv##div:nth-of-type(7) > div:nth-of-type(3)
+cnm.mv##div.main_outer:nth-of-type(9) > .main_inner > div.col-md-12.col-12:nth-of-type(1) > div:nth-of-type(3)
+cnm.mv###cat_loc_1 > .home_cat_left > .home_top_section_box.row > div.col-md-6.col-6:nth-of-type(2) > .home_top_section_elem > .home_cat_left_box > div:nth-of-type(2)
+cnm.mv##div.col-md-12.col-12:nth-of-type(4) > div:nth-of-type(3)
+cnm.mv###cat_loc_3 > .home_cat_left > .home_top_section_box.row > div.col-md-6.col-6:nth-of-type(2) > .home_top_section_elem > .home_cat_left_box > div:nth-of-type(2)
+cnm.mv###content_area > div:nth-of-type(3)
+cnm.mv##.home_top_left
 ||cnm.mv//ads/maxcom.png$image
+||cnm.mv//ads/maxcom-search.png$image
 
 !avas.mv/
 avas.mv###app > .bg-white
@@ -281,6 +309,19 @@ www.esfiya.com##.topadundermenu
 
 !suruhee.mv/
 www.suruhee.mv##.wide.ad
+
+!vaahaka.com/
+vaahaka.com##.theiaStickySidebar
+
+!edition.mv/
+edition.mv##.d-lg-block.d-none.order-2.col-lg-4 > .maw > .ma-desktop.ma
+
+!mendhuru.mv/
+mendhuru.mv##.jeg_wrapper > .wpb_wrapper > .wpb_raw_html.wpb_content_element.wpb_raw_code > .wpb_wrapper > .widget-ad-image > .widget-ad-link > .isthihaaru
+mendhuru.mv##div.vc_hidden-xs.vc_hidden-sm\,.vc_row.row:nth-of-type(4) > .jeg-vc-wrapper > .jeg_main_content.vc_col-sm-12.vc_column_container.jeg_column.wpb_column
+mendhuru.mv##.isthihaaru
+||mendhuru.mv/wp-content/uploads/2019/11/mendhuru-ads-here.png$image
+||vaahaka.com/wp-content/uploads/2017/05/Maveshi-Vaahaka-Ad.gif$image
 
 !iru.mv/
 ||826343.smushcdn.com/1644873/wp-content/uploads/2020/05/C674AB23-CBC0-45C1-994E-2CB10C6F066D-*.jpeg?*lossy=1&strip=1&webp=1$image
