@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202006281920
+! Version: 202102141240
 ! Title: Raajje Adlist
-! Last modified: 28 June 2020 19:20 UTC
-! Expires: 4 days (update frequency)
+! Last modified: 14 February 2021 12:40 UTC
+! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! License: https://creativecommons.org/licenses/by-nc/4.0/
 ! Download: https://raw.githubusercontent.com/evenxzero/Raajje-AdList/master/filter.txt
@@ -16,6 +16,7 @@ vaguthu.mv##.highlights > .v-advert
 vaguthu.mv##.article-entry > .v-advert
 vaguthu.mv##.columns.medium-8.article-content > .v-advert
 ||ads.vaguthu.mv^
+vaguthu.mv##.article-body > .grid-x > .medium-2.cell
 
 !sun.mv/
 sun.mv##.section-header-sponsor
@@ -54,6 +55,8 @@ www.sun.com.mv##.input > .sponsor
 ||www.sun.com.mv/public/images/core/ooredoo-search.png$image
 ||cache-server01.sun.mv/sun.assets/isthihaaru^$image
 ||sun.mv/public/assets/ooredoo-search-v2.png$image
+sun.mv##.cz-current-elem.col-sm-6.col-md-6.col-lg-3
+sun.mv##div.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 
 !vnews.mv/
 vnews.mv##.adborder
@@ -75,14 +78,19 @@ cnm.mv##div.col-md-12.col-12:nth-of-type(4) > div:nth-of-type(3)
 cnm.mv###cat_loc_3 > .home_cat_left > .home_top_section_box.row > div.col-md-6.col-6:nth-of-type(2) > .home_top_section_elem > .home_cat_left_box > div:nth-of-type(2)
 cnm.mv###content_area > div:nth-of-type(3)
 cnm.mv##.home_top_left
+cnm.mv##div.v_space_20:nth-of-type(3)
 ||cnm.mv//ads/maxcom.png$image
 ||cnm.mv//ads/maxcom-search.png$image
 
 !avas.mv/
+avas.mv##.pt-3.pb-6.mx-auto.container
+avas.mv##.mb-9.relative > .adsby
+avas.mv##.px-4.md\:w-1\/3.w-full > .mb-7.relative > .adsby
 avas.mv###app > .bg-white
 avas.mv##.md\:w-auto.w-full.p-3.justify-center.items-center.md\:flex-row.flex-col.flex
 avas.mv##.home_top_ad
 avas.mv##.home_middle_ad
+avas.mv##.pt-3.pb-6.mx-auto.container
 avas.mv##.text-center.md\:mt-2.mt-4.mb-8.md\:mr-6.ml-auto.mr-auto.md\:float-left.relative
 ||images-01.avas.mv/creatives^$image
 
@@ -96,6 +104,18 @@ dhuvas.mv##.td-pb-span8.vc_column_container.wpb_column > .vc_column-inner > .wpb
 dhuvas.mv##div.desku.td-pb-row.wpb_row.vc_row:nth-of-type(21) > .td-pb-span12.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper > .td-pb-row.vc_inner.wpb_row.vc_row > .td-pb-span4.vc_column_container.wpb_column > .vc_column-inner > .wpb_wrapper
 dhuvas.mv##.g-5.g
 dhuvas.mv##.g-3.g
+dhuvas.mv##.elementor-element-0a077eb.elementor-element.elementor-top-column.elementor-col-100.elementor-column > .elementor-element-populated.elementor-column-wrap
+dhuvas.mv##.elementor-element-59a2bc4.elementor-element.elementor-top-column.elementor-col-100.elementor-column > .elementor-element-populated.elementor-column-wrap
+dhuvas.mv##.elementor-element-38bb29c.elementor-element.elementor-top-column.elementor-col-33.elementor-column > .elementor-element-populated.elementor-column-wrap > .elementor-widget-wrap
+dhuvas.mv##.elementor-element-38bb29c.elementor-element.elementor-top-column.elementor-col-33.elementor-column > .elementor-element-populated.elementor-column-wrap
+dhuvas.mv##.elementor-element-efd820c.elementor-element.elementor-top-column.elementor-col-100.elementor-column > .elementor-element-populated.elementor-column-wrap
+dhuvas.mv##.bsaGridGutter.bsaProItems
+||dhuvas.mv/wp-content/uploads/2020/12/ooredoo01.jpg$image
+||dhuvas.mv/wp-content/uploads/2020/11/mwscnews.jpg$image
+||dhuvas.mv/wp-content/uploads/2020/12/ooredoo01.jpg$image
+||dhuvas.mv/wp-content/uploads/2020/11/mwscnews.jpg$image
+||dhuvas.mv/wp-content/uploads/2020/08/xsearch_ad.png.pagespeed.ic.MxHhS9QcXx.webp$image
+||dhuvas.mv/wp-content/uploads/2020/08/search_ad.png$image
 ||i0.wp.com/dhuvas.mv/wp-content/uploads/2020/06/ad.jpg?ssl=1$image
 ||i*.wp.com/dhuvas.mv/wp-content/uploads/*1140x200.jpg^$image
 ||i*.wp.com/dhuvas.mv/wp-content/uploads/*_360x500.jpg^$image
@@ -113,6 +133,7 @@ raajje.mv###fadeMe > .img-responsive.img
 
 !thoora.mv/
 thoora.mv##.wide.ad
+thoora.mv##div.row > .ad
 
 !kulhudhuffushi.com
 kulhudhuffushi.com##.side-advertisement
@@ -170,11 +191,14 @@ aafathis.mv##.wp-caption-text
 ||aafathis.mv/wp-content/uploads/2020/02/Advertisehere1small*.jpg$image
 ||aafathis.mv/wp-content/uploads/2020/02/Advertisehere1small*.jpg$image
 ||aafathis.mv/wp-content/uploads/2020/02/Aafathis-Online-Home-Page-Mid-Banner.gif$image
+||aafathis.mv/wp-content/uploads/2020/02/Advertisehere1big*.jpg$image
 
 !naares.com/
 www.naares.com##.stream-item-top-wrapper.stream-item.tie-col-md-8
 www.naares.com###stream-item-widget-3
 www.naares.com###stream-item-widget-5
+www.naares.com##.elementor-section-height-default.elementor-section-boxed.elementor-section-stretched.elementor-element-590e9961.elementor-element.elementor-top-section.elementor-section
+www.naares.com##.elementor-section-height-default.elementor-section-boxed.elementor-section-stretched.elementor-element-5f032b8.elementor-element.elementor-top-section.elementor-section
 www.naares.com##.aligncenter.stream-item-inline-post.stream-item-in-post.stream-item
 ||naares.com/wp-content/uploads/*/Naares.png^$image
 ||naares.com/wp-content/uploads/*/naares1.$image
@@ -187,6 +211,7 @@ thepress.mv##.topheader-ad
 !oneonline.mv/
 oneonline.mv##.mb-6.rtl.md\:flex-row.flex-col.flex > div.md\:w-1\/2.w-full
 oneonline.mv##.text-center.py-8.w-full.ads
+||oneonline.mv/images/search_ad.png$image
 
 !fuvahmulahtimes.com/
 fuvahmulahtimes.com##.space.single__latest-space
@@ -219,6 +244,7 @@ www.eydhafushitimes.com##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(3) > .align
 ||eydhafushitimes.com/live/wp-content/uploads/*_352x330.jpg^$image
 ||eydhafushitimes.com/live/wp-content/uploads/*/Salsa.jpg$image
 ||www.eydhafushitimes.com/live/wp-content/uploads/2020/06/OMAd-300x280PostpaidOffers_.png$image
+||www.eydhafushitimes.com/live/wp-content/uploads/2020/12/OMAd-300x280_30day.jpg$image
 
 !liyuntherin.org/
 liyuntherin.org##div.mini-widgets:nth-of-type(4)
@@ -245,6 +271,7 @@ www.fenvaru.com##.md\:w-1-5\/5.relative.w-full.md\:m-0.mt-8.px-4 > .adsby
 !ungoofaaru.com/
 www.ungoofaaru.com##.stream-item-widget-content > [href="#"]
 www.ungoofaaru.com###tie-block_2223
+www.ungoofaaru.com##.stream-item-top-wrapper.tie-col-md-8
 
 !dhiislam.com/
 dhiislam.com##.single-leader > .container
@@ -285,6 +312,7 @@ eydhafushivoice.com###text-8
 eydhafushivoice.com###text-23
 eydhafushivoice.com###text-17
 eydhafushivoice.com###text-16
+eydhafushivoice.com##.widget-area
 ||eydhafushivoice.com/wp-content/uploads/*-512x1024.jpg^$image
 ||eydhafushivoice.com/wp-content/uploads/*_ad_1.jpg^$image
 ||eydhafushivoice.com/wp-content/uploads/*_o.$image
@@ -297,8 +325,11 @@ www.esfiya.com##.megabanner
 www.esfiya.com##.home4th
 www.esfiya.com##.singlepostbelowcontent
 www.esfiya.com##.topadundermenu
+||live.staticflickr.com/7900/47566669881_e90c89ede8_o.jpg$image
 
 !hama.mv/
+hama.mv##.container > .col-12 > .addon-unit
+hama.mv##div.m-3.addon-unit:nth-of-type(10)
 ||hama.mv/img/xadsx/top-banner-compressed.jpg$image
 ||hama.mv/img/templates/banner_255x300.jpg$image
 ||hama.mv/img/templates/banner_850x140.jpg$image
@@ -306,12 +337,15 @@ www.esfiya.com##.topadundermenu
 ||hama.mv/img/xadsx/news/bunker_news_top_banner.gif$image
 ||hama.mv/img/templates/banner_350x600.jpg$image
 ||hama.mv/img/xadsx/news/news_banner3.jpg$image
+||hama.mv/img/templates/banner_850x140_compressed.jpg$image
 
 !suruhee.mv/
 www.suruhee.mv##.wide.ad
+suruhee.mv##div.wide.ad:nth-of-type(4)
 
 !vaahaka.com/
 vaahaka.com##.theiaStickySidebar
+vaahaka.com###sticky
 
 !edition.mv/
 edition.mv##.d-lg-block.d-none.order-2.col-lg-4 > .maw > .ma-desktop.ma
@@ -329,4 +363,29 @@ mendhuru.mv##.isthihaaru
 ||iru.mv/wp-content/uploads/2020/05/C674AB23-CBC0-45C1-994E-2CB10C6F066D-scaled.jpeg$image
 ||826343.smushcdn.com/1644873/wp-content/uploads/2019/04/xl-da@2x-1.png?*lossy=1&strip=1&webp=1$image
 ||826343.smushcdn.com/1644873/wp-content/uploads/2020/03/adsmartclass*.jpg?*lossy=1&strip=1&webp=1$image
+
+!dhiyares.com/
+dhiyares.com##.mx-auto.container.md\:px-0.px-4.text-center.py-8.w-full.ads
+dhiyares.com##.md\:mx-auto.md\:px-0.px-4.container.text-center.pt-0.py-8.w-full.ads
+dhiyares.com##.md\:mt-6.md\:mb-0.mb-4.mt-12.mx-auto > .adv > .inline-block.relative > .adv-by.text-gray-500.w-full.left-0.top-0.absolute
+dhiyares.com##.md\:mx-auto.mx-4.md\:mt-0.mt-12.text-center > .adv
+dhiyares.com##.cz-current-elem.justify-center.items-center.flex-col.flex.mt-12.ads
+dhiyares.com##.text-center.md\:mt-2.mt-4.mb-8.md\:mr-6.ml-auto.mr-auto.md\:float-left.relative.mr-4 > .adv > .inline-block.relative > .adv-by.text-gray-500.w-full.left-0.top-0.absolute
+dhiyares.com##.justify-center.items-center.flex-col.flex.mt-12.ads > .adv > .inline-block.relative > .adv-by.text-gray-500.w-full.left-0.top-0.absolute
+dhiyares.com##.text-center.mt-12.md\:mx-0.mx-2.my-8.ads > .adv > .inline-block.relative > .adv-by.text-gray-500.w-full.left-0.top-0.absolute
+
+!dhiyares.com/
+||placehold.co/360x500/ebebeb/ebebeb?text=$image
+themaldivesjournal.com##.justify-center.items-center.flex-col.flex.mt-12.ads > .adv > .inline-block.relative > .adv-by.text-gray-500.w-full.left-0.top-0.absolute
+themaldivesjournal.com##.justify-center.items-center.flex-col.flex.mt-12.ads
+themaldivesjournal.com##.adv
+
+!hathaavees.com/
+hathaavees.com##.cz-current-elem.elementor-element-populated.elementor-column-wrap
+hathaavees.com##.a-2.g-single
+hathaavees.com##.a-8.g-single
+hathaavees.com##.a-3.a-single > [href="http://estore.mv/"]
+hathaavees.com##.elementor-element-dc21d67.elementor-element.elementor-top-column.elementor-col-100.elementor-column > .elementor-element-populated.elementor-column-wrap
+hathaavees.com##.a-7.g-single
+||hathaavees.com/wp-content/uploads/2021/01/xHEXA-Logo.001.jpeg.pagespeed.ic.kVU4P9KWyY.jpg$image
 
