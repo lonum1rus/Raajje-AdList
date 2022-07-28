@@ -119,6 +119,8 @@ dhuvas.mv##.bsaGridGutter.bsaProItems
 ||i0.wp.com/dhuvas.mv/wp-content/uploads/2020/06/ad.jpg?ssl=1$image
 ||i*.wp.com/dhuvas.mv/wp-content/uploads/*1140x200.jpg^$image
 ||i*.wp.com/dhuvas.mv/wp-content/uploads/*_360x500.jpg^$image
+dhuvas.mv##.isthihaaru
+dhuvas.mv##a[data-track]
 
 !raajje.mv/
 raajje.mv##.readMoreFade > .img-responsive.img
@@ -389,3 +391,5 @@ hathaavees.com##.elementor-element-dc21d67.elementor-element.elementor-top-colum
 hathaavees.com##.a-7.g-single
 ||hathaavees.com/wp-content/uploads/2021/01/xHEXA-Logo.001.jpeg.pagespeed.ic.kVU4P9KWyY.jpg$image
 
+!adhadhu.com
+adhadhu.com##div > p:has-text(Advertisement):upward(1)
