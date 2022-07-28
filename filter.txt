@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 202102141240
 ! Title: Raajje Adlist
-! Last modified: 14 February 2021 12:40 UTC
+! Last modified: 28 July 2022 01:25 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/evenxzero/Raajje-AdList 
 ! License: https://creativecommons.org/licenses/by-nc/4.0/
